@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        body {
+    font-family: Arial, sans-serif; 
+    background-color: #f0f0f0; 
+    margin: 0; 
+    padding: 0;
+    color: white;
+    overflow-x: hidden;
+  
+}
+     #container{
+        height: 800px;
+        width: 100%;
+        background-color: #012A38;
+        display: flex;
+     }
+     #container > div{
+        /* border:2px solid white */
+     }
+     .box2{
+        height: 750px;
+        width: 38%;
+        margin-top: 180px;
+        margin-left: 101px;
+        background-color: white;
+        /* display: flex; */
+        align-items: center;
+     }
+     .box1{
+        height: 800px;
+        width: 50%;
+        background-color:#012A38 ;
+        /* display: flex; */
+     }
+     span{
+        color: white;
+     }
+     .span1{
+        font-size: 50px;
+        margin-left: 180px;
+        font-weight: bold;
+     }
+     .span2{
+        font-size: 30px;
+        margin-left: 180px;
+
+     }
+     .img1{
+        margin-left: 180px;
+     }
+
+      .label1{
+        font-size:20px;
+        margin-left: 60px;
+        color:  #737373;
+      }
+      .input1{
+        width: 400px;
+        height: 40px;
+        margin-left: 60px;
+      }
+      .select1{
+        margin-left: 60px;
+      }
+      .in{
+        width: 50px;
+        height: 40px;
+        margin-left: 60px;
+      }
+      .inp{
+        width: 346px;
+        height: 40px;
+        /* margin-left: 60px; */
+
+      }
+      .bt{
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 60px;
+        color: white;
+        background-color:#012A38 ;
+        font-weight: bold;
+        border-radius: 3px;
+        cursor: pointer;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      .logo{
+        display: flex;
+        justify-content: center;
+      }
+      .las{
+        display: flex;
+        height: 300px;
+        width: 800px;
+        border-bottom: 1px solid #cccccc;
+        margin: auto;
+      }
+      .b{
+        height: 400px;
+        width: 400px;
+        /* border: 2px solid red; */
+        
+        
+      }
+
+      .img11{
+        margin-top: 113px;
+        margin-left: 120px;
+      }
+      .cl{
+  height: 70px;
+  width: 70px;
+  /* border: 1px solid red; */
+  border-radius: 100%;
+  background-color: whitesmoke;
+  border-radius: 100%;
+  position: fixed;
+  top:650px;
+  left: 0;
+} 
+     
+    </style>
+</head>
+<body>
+      <div id="container">
+        <div class="box1">
+
+            <img src="https://www.chargebee.com/static/resources/brand/chargebee-logo-white.svg" alt="" width="200" height="200" class="img1"><br>
+            
+            <span class="span1">Elevate Your</span><br>
+            
+            <span class="span1">Subscription</span><br>
+            <span class="span1">Experience with</span><br>
+            <span class="span1">Chargebee</span><br><br><br>
+            <span class="span2">Get a demo that's customized</span><br>
+            <span class="span2">around your unique subscription</span><br>
+            <span class="span2">workflows and pain-points.</span>
+        </div>
+        <div class="box2">
+            <a href="index.html"></a>
+            <form id="form">
+                <br><br><br><br>
+                <label for="fname" class="label1">First name <sup style="color: red;">*</sup></label><br>
+                <input type="text" name="fn" id="first_name" placeholder="First Name" class="input1"><br><br><br>
+                <label for="email" class="label1">Email <sup style="color: red;">*</sup></label><br>
+                <input type="email" name="fn" id="email" placeholder="Business Email" class="input1"><br><br><br>
+                <label for="mob" class="label1">Phone Number<sup style="color: red;">*</sup></label><br>
+                <select name="" id="countrySelect" class="in">
+                    <option value="">+91</option>
+                </select>
+                <input type="text" name="" id="" placeholder="+91" class="inp"><br><br><br>
+                <label for="" class="label1">Is your company headquartered in India?</label><br>
+                <input type="radio" name="" id="" class="select1">
+                <label for="" style="color: #737373;">Yes</label><br>
+                <input type="radio" name="" id="" class="select1">
+                <label for="" style="color: #737373;">No</label><br><br><br>
+                <label for="" class="label1">Number of employees in your company <sup style="color: red;">*</sup></label> <br>
+                
+                <select name="" id="" class="input1">
+                    
+                    <option value="">Please Select</option>
+                    <option value="">0 - 9</option>
+                    <option value="">10 - 49</option>
+                    <option value="">50 - 99</option>
+                    <option value="">100 - 199</option>
+                    <option value="">200 - 499</option>
+                    <option value="">500 - 2500</option>
+                    <option value="">2500+</option>
+                </select><br><br><br>
+                <button class="bt">Sedule a Demo  -></button><br><br>
+
+                <span style="color: 	  #737373;margin-left: 60px;font-size: 12px;">By clicking on Schedule a Demo, you acknowledge </span><br><span style="color: 	  #737373;margin-left: 60px;font-size: 12px;">having read our </span><a href="" style="color: 	  #737373;font-size: 12px;">Privacy Notice.</a>
+
+            </form>
+
+
+        </div>
+      </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="logo">
+        <div><img src="https://webstatic.chargebee.com/assets/web/594/images/schedule-a-demo/logos/okta.svg" alt="" width="140px" style="margin-left:20px"></div>
+        <div>
+            <img src="https://webstatic.chargebee.com/assets/web/594/images/schedule-a-demo/logos/calendly.svg" alt="" width="140px" style="margin-left:20px">
+        </div>
+        <div>
+            <img src="https://webstatic.chargebee.com/assets/web/594/images/schedule-a-demo/logos/freshworks.svg" alt="" width="160px" style="margin-left:20px">
+        </div>
+        <div>
+            <img src="https://webstatic.chargebee.com/assets/web/594/images/schedule-a-demo/logos/study-com.svg" alt="" width="180px" style="margin-left:20px">
+        </div>
+        <div>
+            <img src="https://webstatic.chargebee.com/assets/web/594/images/schedule-a-demo/logos/doodle.svg" alt="" width="120px" style="margin-left:20px">
+        </div>
+        <div>
+            <img src="https://webstatic.chargebee.com/assets/web/594/images/schedule-a-demo/logos/envoy.svg" alt="" width="120px" style="margin-left:20px">
+        </div>
+      </div>
+
+      <div class="las" >
+            <div class="b"><p style="color: #19415E;font-size: 20px;">Chargebee is a fantastic solution that really meets the needs of any online business from Saas to e-commerce. I have had experience with many platforms both as a leader and as a consultant, and Chargebee is the platform I have liked the most.</p><br><br><br><br>
+            <span style="color: #19415E;font-size: 20px;font-weight: bold;">Dailius Wilson</span><br>
+        <span style="color: #19415E;font-size: 15px;">VP Sales & Growth, GetAccept</span></div>
+            <div >
+                <img src="https://webstatic.chargebee.com/assets/web/594/images/schedule-a-demo/dailius-wilson.png" alt="" width="200px" class="img11" >
+            </div>
+      </div><br><br><br>
+      <img src="https://webstatic.chargebee.com/assets/web/594/images/g2-badge-collection/g2-Spring2023-leader.svg" alt="" style="margin-left:330px">
+      <img src="https://webstatic.chargebee.com/assets/web/594/images/g2-badge-collection/g2-Spring2023-fastest-implementation.svg" alt="">
+      <img src="https://webstatic.chargebee.com/assets/web/594/images/g2-badge-collection/g2-Spring2023-best-estimated-roi.svg" alt="">
+      <br><br>
+        <img src="https://th.bing.com/th/id/OIP.F_cVDDwkUYPkMu60-c1cMQAAAA?pid=ImgDet&w=84&h=84&c=7&dpr=1.3" width="70" style="border-radius: 100%;position: fixed;top:650px;right: 0;">
+      
+      
+      <div class="cl"><i class="fa-solid fa-shield-halved fa-2xl" style="margin-left: 15px;margin-top:35px;color:black" ></i></div>
+      
+</body>
+</html>
+
+<script>
+    // Get the select element
+    var select = document.getElementById('countrySelect');
+
+    // Array of countries (you can replace this with a more extensive list)
+    var countries = ["Afghanistan", "Albania", "Algeria", /* ... and so on ... */ "Zimbabwe"];
+
+    // Populate the select element with options
+    countries.forEach(function(country) {
+        var option = document.createElement('option');
+        option.value = country;
+        option.text = country;
+        select.add(option);
+    });
+</script>
